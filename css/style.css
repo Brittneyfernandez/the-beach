@@ -32,15 +32,16 @@ body{
     
 }
 #showcase p{
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color:hsl(30, 25%, 94%);
+    
 
 }
 #showcase .button{
     font-size: 18px;
     text-decoration: none;
-    color: #926239;
-    border: #926239 1px solid;
+    color: #f1efef;
+    border: #f7d6b3 3px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -56,11 +57,17 @@ body{
     background: #926239;
     color: white;
     text-align: center;
+    border: seashell solid 2px;
 }
 #section-b{
     padding: 20px;
-    background: #f4f4f4;
+    background: #c3957b;
     text-align: center;
+    border: seashell solid 4px;
+    font-size: 20px ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
 }
 #section-c{
     display: flex;
@@ -71,11 +78,37 @@ body{
 #section-c .box1, #section-c .box3{
     background: #926239;
     color: white;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
+    height: 500px;
+    width: 500px;
+    border: seashell solid 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+    
+    
 }
 #section-c .box2{
     background:burlywood;
     color: white;
+    height: 500px;
+    width: 500px;
+    margin: 0px;
+    padding: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455__480.jpg);
+     border: seashell solid 4px;
+    background-size: cover;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+#section-c .box3{
+    background-color: burlywood;
+    color: white;
+    margin: 0;
+    padding:20px;
+background-image: url(../images/pexels-brady-knoll-3369569.jpg);
+background-size: cover;
 
 }
 
@@ -84,8 +117,7 @@ body{
     list-style-type: none;
     margin: 0px;
     padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
+    background-color: #cc9e83;
 
 
 }
@@ -97,7 +129,7 @@ body{
       }
       
       li a.active {
-        background-color: #04AA6D;
+        background-color: #88696b;
         color: white;
       }
       
@@ -109,3 +141,10 @@ body{
 
 
   /* nav end */
+  .top-bar{
+      width: 100%;
+  }
+
+  .nav li{
+      display: inline-block;
+  }

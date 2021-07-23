@@ -118,7 +118,7 @@ background-size: cover;
     margin: 0px;
     padding: 0;
     background-color: #cc9e83;
-
+    
 
 }
            li a {
@@ -143,8 +143,28 @@ background-size: cover;
   /* nav end */
   .top-bar{
       width: 100%;
+      
   }
 
   .nav li{
       display: inline-block;
+      
+  }
+
+  .reservation{
+      height: 100%;
+      width: 100%;
+      color: #a66014;
+      font-size: 30px;
+      display: inline-block;
+      
+      
+  }
+
+  .list{
+      text-align: center;
+      font-size: 40px;
+      font-family: serif;
+      color: seashell;
+      background-color: #644a5f;
   }

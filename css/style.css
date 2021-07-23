@@ -1,170 +1,178 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    color: #f5e3d2;
-    line-height: 1.6;
-
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #f5e3d2;
+  line-height: 1.6;
 }
 
-#showcase{
-    background-image: url(../images/pexels-zukiman-mohamad-21787.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 20px;
+#showcase {
+  background-image: url(../images/pexels-zukiman-mohamad-21787.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
 }
 
-#showcase h1{
-    font-size: 50px;
-    line-height: 1.2;
-    text-shadow: #926239 3px 3px;
-    
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  text-shadow: #926239 3px 3px;
 }
-#showcase p{
-    font-size: 25px;
-    color:hsl(30, 25%, 94%);
-    
-
+#showcase p {
+  font-size: 25px;
+  color: hsl(30, 25%, 94%);
 }
-#showcase .button{
-    font-size: 18px;
-    text-decoration: none;
-    color: #f1efef;
-    border: #f7d6b3 3px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-top: 20px;
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #f1efef;
+  border: #f7d6b3 3px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-#showcase .button:hover{
-    background: #926239;
-    color: white;
-
+#showcase .button:hover {
+  background: #926239;
+  color: white;
 }
-#section-a{
-    padding: 20px;
-    background: #926239;
-    color: white;
-    text-align: center;
-    border: seashell solid 2px;
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: white;
+  text-align: center;
+  border: seashell solid 2px;
 }
-#section-b{
-    padding: 20px;
-    background: #c3957b;
-    text-align: center;
-    border: seashell solid 4px;
-    font-size: 20px ;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    
+#section-b {
+  padding: 20px;
+  background: #c3957b;
+  text-align: center;
+  border: seashell solid 4px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
 }
-#section-c{
-    display: flex;
+#section-c {
+  display: flex;
 }
-#section-c div{
-    padding: 20px;
+#section-c div {
+  padding: 20px;
 }
-#section-c .box1, #section-c .box3{
-    background: #926239;
-    color: white;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
-    height: 500px;
-    width: 500px;
-    border: seashell solid 4px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    
-    
-    
+#section-c .box1,
+#section-c .box3 {
+  background: #926239;
+  color: white;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/wtqqnkYDYi2ifsWZVW2MT4-1200-80.jpg);
+  height: 500px;
+  width: 500px;
+  border: seashell solid 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
-#section-c .box2{
-    background:burlywood;
-    color: white;
-    height: 500px;
-    width: 500px;
-    margin: 0px;
-    padding: 20px;
-    background-image: url(https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455__480.jpg);
-     border: seashell solid 4px;
-    background-size: cover;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+#section-c .box2 {
+  background: burlywood;
+  color: white;
+  height: 500px;
+  width: 500px;
+  margin: 0px;
+  padding: 20px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455__480.jpg);
+  border: seashell solid 4px;
+  background-size: cover;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#section-c .box3{
-    background-color: burlywood;
-    color: white;
-    margin: 0;
-    padding:20px;
-background-image: url(../images/pexels-brady-knoll-3369569.jpg);
-background-size: cover;
-
+#section-c .box3 {
+  background-color: burlywood;
+  color: white;
+  margin: 0;
+  padding: 20px;
+  background-image: url(../images/pexels-brady-knoll-3369569.jpg);
+  background-size: cover;
 }
 
 /* nav */
-.nav ul{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    background-color: #cc9e83;
-    
-
+.nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  background-color: #cc9e83;
 }
-           li a {
-        display:inline-block;
-        color: #000;
-        padding: 8px 16px;
-        text-decoration: none;
-      }
-      
-      li a.active {
-        background-color: #88696b;
-        color: white;
-      }
-      
-      li a:hover:not(.active) {
-        background-color: #555;
-        color: white;
-      }
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
+li a.active {
+  background-color: #88696b;
+  color: white;
+}
 
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
 
-  /* nav end */
-  .top-bar{
-      width: 100%;
-      
-  }
+/* nav end */
+.top-bar {
+  width: 100%;
+}
 
-  .nav li{
-      display: inline-block;
-      
-  }
+.nav li {
+  display: inline-block;
+}
 
-  .reservation{
-      height: 100%;
-      width: 100%;
-      color: #a66014;
-      font-size: 30px;
-      display: inline-block;
-      
-      
-  }
+.reservation {
+  height: 100%;
+  width: 100%;
+  color: #a66014;
+  font-size: 30px;
+  display: inline-block;
+}
 
-  .list{
-      text-align: center;
-      font-size: 40px;
-      font-family: serif;
-      color: seashell;
-      background-color: #644a5f;
-  }
+.list {
+ 
+display: flex;
+  font-size: 40px;
+  font-family: serif;
+  color: seashell;
+  background-color: #644a5f;
+}
+.list > ul,
+.list > div {
+  display: inline-block;
+  width: 100%;
+}
+
+.list ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+.thing-1{
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../images/pexels-jacob-colvin-1761282.jpg);
+    background-size: cover;
+}
+.thing-2{
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../images/pexels-engin-akyurt-2531182.jpg);
+    background-size: cover;
+}

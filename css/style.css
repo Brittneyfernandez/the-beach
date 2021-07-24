@@ -139,7 +139,7 @@ li a:hover:not(.active) {
 .reservation {
   height: 100%;
   width: 100%;
-  color: #a66014;
+  color: #f0ebe5;
   font-size: 30px;
   display: inline-block;
 }
@@ -161,6 +161,7 @@ display: flex;
 .list ul {
     list-style: none;
     text-align: center;
+    margin-top: 100px;
     
 }
 
@@ -176,3 +177,12 @@ display: flex;
     background-image: url(../images/pexels-engin-akyurt-2531182.jpg);
     background-size: cover;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#926239;
+    color: white;
+    text-align: center;
+    

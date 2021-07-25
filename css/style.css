@@ -11,6 +11,15 @@ body {
   line-height: 1.6;
 }
 
+.home{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top:4px;
+}
+
 #showcase {
   background-image: url(../images/pexels-zukiman-mohamad-21787.jpg);
   background-size: cover;
@@ -105,17 +114,22 @@ body {
 
 /* nav */
 .nav ul {
+  position: fixed;
   list-style-type: none;
   margin: 0px;
-  padding: 0;
+  padding:0;
   background-color: #cc9e83;
+  
 }
 li a {
   display: inline-block;
   color: #000;
-  padding: 8px 16px;
+  padding: 16px 16px;
   text-decoration: none;
+  
 }
+
+
 
 li a.active {
   background-color: #88696b;
@@ -185,4 +199,5 @@ display: flex;
     background-color:#926239;
     color: white;
     text-align: center;
-    
+}
+

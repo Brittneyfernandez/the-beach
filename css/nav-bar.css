@@ -1,0 +1,107 @@
+.nav ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  background-color: #cc9e83;
+  z-index: 200;
+}
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #88696b;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* nav end */
+.top-bar {
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.reservation {
+  height: 100%;
+  width: 100%;
+  color: #f0ebe5;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.list {
+  display: flex;
+  font-size: 40px;
+  font-family: serif;
+  color: seashell;
+  background-color: #644a5f;
+}
+.list > ul,
+.list > div {
+  display: inline-block;
+  width: 100%;
+}
+
+.list ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* nav */
+.nav ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  background-color: #cc9e83;
+}
+li a {
+  display: inline-block;
+  color: #000;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #88696b;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* nav end */
+.top-bar {
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.home {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 2px;
+  top: 4px;
+}
+
+body {
+  line-height: 1.6;
+}

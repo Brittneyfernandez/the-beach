@@ -113,43 +113,6 @@ body {
   background-size: cover;
 }
 
-/* nav */
-.nav ul {
-  position: fixed;
-  list-style-type: none;
-  margin: 0px;
-  padding:0;
-  background-color: #cc9e83;
-  
-}
-li a {
-  display: inline-block;
-  color: #000;
-  padding: 16px 16px;
-  text-decoration: none;
-  
-}
-
-
-
-li a.active {
-  background-color: #88696b;
-  color: white;
-}
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-/* nav end */
-.top-bar {
-  width: 100%;
-}
-
-.nav li {
-  display: inline-block;
-}
 
 .reservation {
   height: 100%;
@@ -243,6 +206,22 @@ display: flex;
 
 .video{
  width: auto;
+ 
 }
+
+.news{
+  background-image: url(https://marketplace.canva.com/EADaoY6_RFA/1/0/1131w/canva-coral-green-simple-beach-vacation-family-newsletter-KQSfMsovCOY.jpg);
+  
+  width: 100%;
+  margin: 0;
+  padding: 0%;
+  
+
+}
+
+
+
+
+
 
 

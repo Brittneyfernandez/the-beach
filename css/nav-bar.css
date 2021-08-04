@@ -18,10 +18,7 @@ li a.active {
   color: white;
 }
 
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
+
 
 /* nav end */
 .top-bar {
@@ -75,12 +72,12 @@ li a {
 }
 
 li a.active {
-  background-color: #88696b;
+  background-color: #589aa9;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color:#589aa9;
   color: white;
 }
 
